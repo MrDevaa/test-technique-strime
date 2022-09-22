@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Strime Shopping Project</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav nav">
+        <ul>
+          <li><a href="store.html">Strime Shopping</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large"></h1>
+    </header>
+    <section class="container content-section">
+      <h2 class="section-header">DVD & Blu-ray</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title"
+            >Game of Thrones -L'intégrale des Saisons 1 à 8 [Blu-Ray]</span
+          >
+          <img class="shop-item-image" src="Images/Album 1.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">54,15€ </span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              Ajouter au Panier
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title"
+            >Dexter-L'intégrale : Saisons 1 à 8 [Blu-Ray]</span
+          >
+          <img class="shop-item-image" src="Images/Album 2.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">499,29€</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              Ajouter au Panier
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title"
+            >Harry Potter-L'intégrale des 8 Films [4K Ultra-HD + Blu-Ray]</span
+          >
+          <img class="shop-item-image" src="Images/Album 3.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">116,27€</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              Ajouter au Panier
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title"
+            >Spider-Man Integrale 8 Films [Blu-Ray]</span
+          >
+          <img class="shop-item-image" src="Images/Album 4.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">59,99€</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              Ajouter au Panier
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">Goodies</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title"
+            >Marvel Avengers Endgame Ant-Man Quote Portrait T-Shirt
+          </span>
+          <img class="shop-item-image" src="Images/Shirt.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">19,99€</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              Ajouter au Panier
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title"
+            >LEGO 76191 Marvel Le Gant de l’Infini</span
+          >
+          <img class="shop-item-image" src="Images/thanos.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">51,99€</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              Ajouter au Panier
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">Panier</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">Article</span>
+        <span class="cart-price cart-header cart-column">Prix</span>
+        <span class="cart-quantity cart-header cart-column">Quantité</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">0€</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        Acheter
+      </button>
+    </section>
+  </body>
+</html>
