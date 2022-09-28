@@ -1,4 +1,4 @@
-# test-technique-strime
+Watch Branch Master for the CODE
 
 comme convenu, voici le test technique de 4 h :
 
